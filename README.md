@@ -1,28 +1,30 @@
 # README
 
-dernier exo. je n'ai pas eu beaucoup le temps de m'y consacré. donc il n'est pas finis.
+Bonjour,
+
+voici le dernier exercices demandé pour le projet. Dans cet exercice, nous reprenons les bases de notre fameux Gossip Project pour le transcrire en Rails.
 
 
+OBJECTIFs DE L'EXERCICE :
+    -Les utilisateurs peuvent créer des potins
+    -Les utilisateurs, en créant des potins, peuvent mettre un ou plusieurs tags sur les potins : #romance
+    -Les utilisateurs peuvent commenter des potins
+    -Et puisque ton appli doit respecter les standards de l'industrie, on va faire en sorte qu'il soit possible aussi de commenter des commentaires.
+    -Les utilisateurs peuvent liker des potins.
+    -Les utilisateurs peuvent contacter leur commères favoris en MP pour obtenir des exclus mondiales.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Je n'ai pas conclu l'exercice :
+- les exos jusqu'à 2.3.3 c) fonctionnent.
+- les exos jusqu'à 2.3.3 e) sont faient. les liens sont créés. faker est écrit et fonctionne. Mais une erreur de lien fait buggué la génération des tables par faker.
+- les exos suivants : les classes sont créées. faker est écrit. mais je n'ai pas effectué les liens. donc ce n'est pas fonctionnel.
+- j'ai fait une note où figure toutes les actions que j'ai effectué pour construire ma base. c'est le readme_bis.md
 
-* Ruby version
+BDD fonctionelles :
+- user
+- city
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+BDD non fonctionnelles : (code effectué. mais une erreur de lien empeche la création de faker)
+- Tag
+- Gossip1
+- Gossiptag
